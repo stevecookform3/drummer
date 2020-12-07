@@ -1,0 +1,34 @@
+instruments:
+  K:
+    sample: assets/Kick1.wav
+    pitch: 1
+    volume: -2
+  k:
+    sample: assets/Kick1.wav
+    pitch: 0.5
+    volume: -4
+  sn:
+    sample: assets/Snare1.wav
+    pitch: 1
+    volume: -2
+  sn2:
+    sample: assets/Snare1.wav
+    pitch: 2
+    volume: -2
+  hh:
+    sample: assets/HiHat1.wav
+    pitch: 1
+    volume: -4
+  sh:
+    sample: assets/Shaker1.wav
+    pitch: 1
+    volume: -4
+
+sequence:
+    tempo: 110
+    subdiv: 4
+    seq: |+
+      |    | sh |    | sh |    | sh |    | sh |    | sh |     | sh |    | sh |    | sh |
+      | hh | hh | hh | hh | hh | hh | hh | hh | hh | hh | hh  | hh | hh | hh | hh | hh |
+      |    |    | sn |    |    |    | sn |    |    |    | sn2 |    | sn |    | sn |    |
+      | K  |    |    |    | K  |    |    | k  | K  |    |     |    |    | K  |    | k  |
