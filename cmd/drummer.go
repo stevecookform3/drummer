@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/form3tech/drummer/internal/audio"
-	"github.com/form3tech/drummer/internal/sequencer"
+	"github.com/stevecookform3/drummer/internal/audio"
+	"github.com/stevecookform3/drummer/internal/sequencer"
 	"io/ioutil"
 	"log"
 	"os"

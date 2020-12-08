@@ -1,4 +1,4 @@
-module github.com/form3tech/drummer
+module github.com/stevecookform3/drummer
 
 go 1.13
 
